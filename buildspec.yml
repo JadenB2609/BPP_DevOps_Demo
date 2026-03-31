@@ -1,9 +1,10 @@
 version: 0.2
+
 phases: 
   build:
     commands:
-    - echo "Builidng..."
+      - echo "Building..."
 
-  artifacts:
-    files:
+artifacts:
+  files:
     - '**/*'
